@@ -22,6 +22,7 @@
             </div>
 
             <fieldset>
+                <legend>Age</legend>
                 <label for="age">Your Age</label>
                 <input type="number" name="age" id="age" min="21" max="120">
                 <h5>Disclamer: Must be 21 or older to enter.</h5>
@@ -89,7 +90,7 @@
                     <option value="WY">Wyoming</option>
                 </select>
                 <label for="zipcode">Your Zipcode</label>
-                <input type="text" id="zipcode" name="zipcode">
+                <input type="text" id="zipcode" pattern="[0-9]{5}" name="zipcode">
             <!-- Todo: Email Input -->
             <!-- Todo: Street Address Input -->
             <!-- Todo: City, State, and Zip Inputs -->
